@@ -1609,6 +1609,11 @@ section,
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
+.row {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center;     /* Centra los elementos verticalmente si es necesario */
+}
 .pricing .pricing-item {
   background-color: var(--backgroun-color);
   padding: 60px 40px;
@@ -1718,6 +1723,7 @@ section,
   background: var(--accent-color);
   color: var(--contrast-color);
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Section
@@ -2265,6 +2271,16 @@ section,
   font-style: italic;
   margin: 0 0 15px 0 0 0;
   padding: 0;
+}
+.pruebalo-text {
+  position: absolute;
+  bottom: 40px; /* Ajusta este valor para controlar qué tan abajo quieres que esté */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: #fff; /* Puedes cambiar el color si lo necesitas */
+  font-weight: bold;
+  z-index: 10;
 }
 
 /*--------------------------------------------------------------
