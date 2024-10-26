@@ -1809,7 +1809,7 @@ section,
 
 .portfolio .portfolio-content .portfolio-info p {
   position: absolute;
-  top: 50px;
+  bottom: 50px;
   text-align: center;
   display: inline-block;
   left: 0;
