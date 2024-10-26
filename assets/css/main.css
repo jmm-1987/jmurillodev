@@ -1854,6 +1854,18 @@ section,
     margin: 15px; /* Espacio entre las columnas */
   }
 }
+  /* Estilo para posicionar "¡Pruébalo ahora!" */
+  .portfolio-info .pruebalo-text {
+    position: absolute;
+    top: 10px; /* Ajusta el valor para colocarlo más arriba o más abajo */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #0072FF; /* Ajusta el color según tus preferencias */
+  }
 /* Para pantallas pequeñas */
 @media (max-width: 767px) {
   .isotope-container .portfolio-item {
