@@ -1130,7 +1130,7 @@ section,
   padding: 20px 40px;
   max-width: 90%;
   transition: 0.3s;
-  opacity: 0.5;
+  opacity: 0.0;
   filter: grayscale(100);
 }
 
