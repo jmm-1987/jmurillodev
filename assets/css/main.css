@@ -1130,12 +1130,10 @@ section,
   padding: 20px 40px;
   max-width: 90%;
   transition: 0.3s;
-  opacity: 0.0;
 }
 
 .clients .client-logo img:hover {
   filter: none;
-  opacity: 0;
 }
 
 @media (max-width: 640px) {
