@@ -947,6 +947,7 @@ section,
 @media (max-width: 640px) {
   .clients .client-logo img {
     padding: 20px;
+    text-align: left;
   }
 }
 
