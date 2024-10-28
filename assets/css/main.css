@@ -1126,10 +1126,18 @@ section,
   overflow: hidden;
 }
 
+.client-logo p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px; /* Ajusta el espacio entre la imagen y el texto */
+}
+
 .clients .client-logo img {
   padding: 20px 40px;
   max-width: 90%;
   transition: 0.3s;
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
 }
 
 .clients .client-logo img:hover {
