@@ -1353,6 +1353,10 @@ section,
   font-size: 34px;
   line-height: 0;
 }
+.portfolio-info {
+  position: relative;
+  padding-top: 30px; /* Espacio para el texto "¡Pruébalo ahora!" */
+}
 
 .portfolio .portfolio-content:hover .portfolio-info {
   opacity: 1;
@@ -1370,14 +1374,31 @@ section,
   /* Estilo para posicionar "¡Pruébalo ahora!" */
   .portfolio-info .pruebalo-text {
     position: absolute;
-    top: 10px; /* Ajusta el valor para colocarlo más arriba o más abajo */
+    top: 10px; /* Ajusta según la altura deseada */
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px 10px;
-    border-radius: 5px;
+    z-index: 2;
+    color: white; /* Cambia a azul similar al tema */
+    font-size: 3em;
     font-weight: bold;
-    color: #0072FF; /* Ajusta el color según tus preferencias */
+    pointer-events: none;
+  }
+
+  .portfolio-info .pruebalo-text span {
+    display: block;
+    color: #0072FF; /* Color azul */
+  }
+
+  .portfolio-info .pruebalo-text t {
+    display: block;
+    color: white; /* Color blanco */
+  }
+
+  
+  .portfolio-info .pruebalo-text span:nth-child(2) {
+    margin-top: 8px; /* Espacio adicional para el segundo texto */
+    font-size: 0.9em; /* Tamaño de fuente ligeramente más pequeño */
+    color: #333; /* Cambia este color si deseas otro tono */
   }
 /* Para pantallas pequeñas */
 @media (max-width: 767px) {
