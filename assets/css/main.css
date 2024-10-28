@@ -87,6 +87,20 @@ h6 {
   font-family: var(--heading-font);
 }
 
+/* Estilos solo para pantallas grandes */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px; /* Cambia el valor según el ancho deseado */
+    margin: 0 auto;
+  }
+
+  /* Ajusta el ancho de las secciones que desees centrar */
+  .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
