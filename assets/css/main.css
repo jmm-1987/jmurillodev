@@ -857,13 +857,17 @@ section,
 }
 
 .featured-services .service-item .icon {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  width: 80px;
+  height: 80px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  font-size: 32px;
+  color: #333;
+  margin: 0 auto; /* Asegura que el contenedor también esté centrado */
   margin-bottom: 10px;
-}
-
-.featured-services .service-item .icon i {
-  color: var(--accent-color);
-  font-size: 36px;
-  transition: 0.3s;
 }
 
 .featured-services .service-item h4 {
