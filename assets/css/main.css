@@ -731,7 +731,7 @@ section,
 --------------------------------------------------------------*/
 .container svg {
   width: 100%;  /* Ajusta este valor para hacer el SVG más pequeño */
-  height: auto; /* Mantén la relación de aspecto */
+  height: 500px; /* Mantén la relación de aspecto */
   max-width: 800px;  /* Puedes establecer un valor máximo para evitar que sea demasiado grande */
 }
 
@@ -953,10 +953,11 @@ section,
 
   .clients .client-logo {
     width: 100%;
-    display: flex;
+    /*display: flex;*/
     align-items: left;
     text-align: left;
     padding: 10px 0;
+
   }
 
   .clients .client-logo img {
