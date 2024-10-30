@@ -955,19 +955,27 @@ section,
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%; /* Asegura que ocupe todo el ancho */
   }
 
   .clients .client-logo {
-    width: 100%;
-    /*display: flex;*/
-    align-items: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     text-align: left;
     padding: 10px 0;
-
+    width: 100%; /* Asegura que ocupe todo el ancho */
   }
 
   .clients .client-logo img {
     margin-right: 10px;
+    flex-shrink: 0; /* Evita que la imagen se redimensione */
+  }
+
+  .clients .client-logo p {
+    margin: 0;
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
   }
 }
 /*--------------------------------------------------------------
