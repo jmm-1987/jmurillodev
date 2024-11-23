@@ -1308,6 +1308,7 @@ section,
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   overflow: hidden;
   position: relative;
@@ -1391,9 +1392,10 @@ section,
     margin: 15px; /* Espacio entre las columnas */
   }
 @media (min-width: 768px) {
-  .isotope-containers .portfolio-item{
-    width: calc(33.3% - 30px); /* Distribuye en 3 columnas con espacio entre ellas */
+  .isotope-container .portfolio-itema{
+    width: calc(25% - 30px); /* Distribuye en 3 columnas con espacio entre ellas */
     margin: 15px; /* Espacio entre las columnas */
+    margin-bottom: 20px;
   }
   /* Estilo para posicionar "¡Pruébalo ahora!" */
   .portfolio-info .pruebalo-text {
